@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Saira Condensed';
+    src: url("./assets/SairaCondensed-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Mochiy Pop P One';
+    src: url("./assets/MochiyPopPOne-Regular.ttf");
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(#7900FF,#548CFF,#93FFD8,#CFFFDC);
+    font-family: "Saria Condensed", sans-serif;
+    color: #502064;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.profile-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1,h2,h3{
+    font-family: 'Mochiy Pop P One';
+    color: #1C6DD0;
+    margin-bottom: 20px;
+}
+
+.title-fade-in{
+    opacity: 100;
+    animation: fade-in 2s;
+}
+
+.title-fade-out{
+    opacity: 0;
+    animation: fade-out 2s;
+}
+
+@keyframes fade-out{
+    from{opacity: 100;}
+    to {opacity: 0;}
+}
+
+@keyframes fade-in {
+    from{opacity: 0;}
+    to{opacity: 100;}
+    
+}
